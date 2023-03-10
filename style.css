@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+ header{
+  text-align: center;
+}
+
+.nav link{
+  background: grey;
+  padding-left:10px ;
+  padding-right: 10px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display:block; 
+  margin: 0 auto; 
+ 
+}
+  
+#featured {
+  max-width: 800px;
+  text-align: center;
+}
+nav a {
+  text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   background: grey;
+
+
+}
+.div{
+  float: left;
+}
+
+.footer-widgets .widget_nav_menu li {
+  display: inline-block;
+}
+
+.container {
+  display: flex; /* set the container to be a flex container */
+  flex-direction: row; /* set the direction of the flex items to be horizontal */
+  justify-content: space-between; /* distribute the items horizontally */
+}
